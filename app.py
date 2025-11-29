@@ -87,7 +87,7 @@ text1 = "Руслан, пусть рядом всегда будут верны�
 text2 = "Руслан, мы все гордимся тобой и любим тебя. Пусть в жизни будет много радости и удачи!"
 
 with tab1:
-    st.header("Путешествия")
+    #st.header("Путешествия")
     col1, col2 = st.columns([1,1])
     with col1:
         st.image("files/hb_1.jpg", use_container_width=True)
@@ -106,7 +106,7 @@ with tab1:
                             """, unsafe_allow_html=True)
 
 with tab2:
-    st.header("Друзья")
+    #st.header("Друзья")
     col1, col2 = st.columns([1,1])
     with col1:
         st.image("files/hb_2.jpg", use_container_width=True)
@@ -124,7 +124,7 @@ with tab2:
                                 {text1}
                             """, unsafe_allow_html=True)
 with tab3:
-    st.header("Любовь")
+    #st.header("Любовь")
     col1, col2 = st.columns([1, 1])
     with col1:
         st.image("files/hb_3.jpg", use_container_width=True)
@@ -141,6 +141,7 @@ with tab3:
                         margin: 0;">
                         {text2}
                     """, unsafe_allow_html=True)
+
 
 
 
