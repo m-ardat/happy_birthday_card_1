@@ -80,7 +80,7 @@ st.markdown("""
 lottie_animation = load_lottie_file("files/congratulation.json")
 st_lottie(lottie_animation, height=300, key="birthday")
 
-tab1, tab2, tab3 = st.tabs(["Путешествия", "Друзья", "Любовь"])
+tab1, tab2, tab3 = st.tabs(["1", "2", "3"])
 
 text0 = "Руслан, пусть твоя жизнь будет наполнена яркими впечатлениями и бесконечным любопытством к миру!"
 text1 = "Руслан, пусть рядом всегда будут верные друзья, которые ценят тебя и поддерживают любую твою идею!"
@@ -141,6 +141,7 @@ with tab3:
                         margin: 0;">
                         {text2}
                     """, unsafe_allow_html=True)
+
 
 
 
